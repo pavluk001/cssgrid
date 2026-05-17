@@ -1,0 +1,69 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+
+.body{
+    display: grid;
+}
+
+
+.header-container{
+    grid-template-columns: 300px 1fr;
+    display: grid;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    outline: 1px solid red;
+
+}
+
+
+.image{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid black double;
+}
+
+.hero{
+display: grid;
+    grid-template-columns: 1fr;
+background-color: aqua;
+
+}
+
+.navigation{
+    list-style: none;
+}
+
+.skills{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.gallery{
+display: flex;
+justify-content: center;
+gap: 12px;
+padding-top: 50px;
+
+}
+
+
+button{
+    padding: 10px 20px;
+    background-color: brown;
+}
+
+.about{
+    background-color: aqua;
+}
+
+.images{
+    grid-template-columns: (3 1fr)
+}
